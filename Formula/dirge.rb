@@ -1,24 +1,24 @@
 class Dirge < Formula
   desc "Batteries-included Rust coding agent for the terminal"
   homepage "https://github.com/dirge-code/dirge"
-  version "0.21.8"
+  version "0.21.9"
   license "GPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/dirge-code/dirge/releases/download/v0.21.8/dirge-aarch64-apple-darwin.tar.gz"
-      sha256 "70e1d22766e5309aafa2e24e64fa5004a721387482b4252735c74b60a4e86a19"
+      url "https://github.com/dirge-code/dirge/releases/download/v0.21.9/dirge-aarch64-apple-darwin.tar.gz"
+      sha256 "4eb07a14087bd04ce39ba73f55fd73f6aa290f9fa5219975d1ee4d8b283d47a8"
     end
     on_intel do
-      url "https://github.com/dirge-code/dirge/releases/download/v0.21.8/dirge-x86_64-apple-darwin.tar.gz"
-      sha256 "6e59f656d1741ac20bded360305aacecf6735c907777658d19e464bb4dc13754"
+      url "https://github.com/dirge-code/dirge/releases/download/v0.21.9/dirge-x86_64-apple-darwin.tar.gz"
+      sha256 "4d97a4cca67c607371bf18872766949d45bb68b16ee1b2951af38e869b80d48f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dirge-code/dirge/releases/download/v0.21.8/dirge-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "67ff14eaeb7766ce7519a522bdd8fa820d050d3f867f2896129e5483da65add6"
+      url "https://github.com/dirge-code/dirge/releases/download/v0.21.9/dirge-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c6cc23dc21bdfdde0a97afd04580f751997bc248f18ab84a1679566799f61475"
     end
   end
 
